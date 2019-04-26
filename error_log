@@ -1,0 +1,9 @@
+[12-Jan-2018 17:37:20 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /home/clients25s/public_html/boxingapp/vendor/yiisoft/yii2/helpers/BaseArrayHelper.php on line 123
+[12-Jan-2018 17:37:20 America/New_York] PHP Fatal error:  Uncaught yii\base\InvalidConfigException: The "id" configuration for the Application is required. in /home/clients25s/public_html/boxingapp/vendor/yiisoft/yii2/base/Application.php:219
+Stack trace:
+#0 /home/clients25s/public_html/boxingapp/vendor/yiisoft/yii2/base/Application.php(201): yii\base\Application->preInit(Array)
+#1 /home/clients25s/public_html/boxingapp/index.php(20): yii\base\Application->__construct(Array)
+#2 {main}
+  thrown in /home/clients25s/public_html/boxingapp/vendor/yiisoft/yii2/base/Application.php on line 219
+[12-Jan-2018 17:52:22 America/New_York] PHP Notice:  Use of undefined constant sda - assumed 'sda' in /home/clients25s/public_html/boxingapp/services/config/main.php on line 108
+[12-Jan-2018 17:52:54 America/New_York] PHP Parse error:  syntax error, unexpected ''POST'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/clients25s/public_html/boxingapp/services/config/main.php on line 108
